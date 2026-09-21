@@ -1,0 +1,11 @@
+student_name = input("Enter student name: ")
+registration_number = input("Enter registration number: ")
+age = int(input("Enter age: "))
+average_mark = float(input("Enter average mark: "))
+registration_status = input("Enter registration status: ")
+
+print("Student name:", student_name, type(student_name))
+print("Registration number:", registration_number, type(registration_number))
+print("Age:", age, type(age))
+print("Average mark:", average_mark, type(average_mark))
+print("Registration status:", registration_status, type(registration_status))
